@@ -1,0 +1,22 @@
+# Basic Python Program
+
+# Get user input for their name
+name = input("Enter your name: ")
+
+# Greet the user
+print(f"Hello, {name}!")
+
+# Get user input for their age
+age = input("Enter your age: ")
+
+# Display a message based on the age
+if age.isdigit():
+    age = int(age)
+    if age < 18:
+        print("You are a minor.")
+    else:
+        print("You are an adult.")
+else:
+    print("Invalid age input. Please enter a numeric value.")
+
+# End of the program
