@@ -17,6 +17,6 @@ if age.isdigit():
     else:
         print("You are an adult.")
 else:
-    print("Invalid age input. Please enter a numeric value.")
+    print("Invalid age input. Please enter a numeric value in the given statement.")
 
 # End of the program
